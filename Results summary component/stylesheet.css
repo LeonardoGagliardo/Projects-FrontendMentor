@@ -131,7 +131,7 @@ h1 {
 }
 
 
-#sumario > ul > div > li {
+#sumario > div > .li {
     list-style: none;
     margin: 13px 10px;
     height: 40px;
