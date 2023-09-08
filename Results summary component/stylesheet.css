@@ -41,14 +41,13 @@ html, body {
 
 
 #corpo {
-    width: 600px;
-    height: 390px;
+    width: 740px;
+    height: 510px;
     margin: auto;
     text-align: center;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.123);
     border-radius: 25px;
     overflow: hidden;
-
 }
 
 /* RESULTADO */
@@ -64,11 +63,12 @@ html, body {
 
 #resultado > h1 {
     color: var(--Light-lavender);
+    margin-bottom: 30px;
 }
 
 #score {
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
     background-image: linear-gradient(to top, var(--Persian-blue-circle), var(--Violet-blue-circle));
     border-radius: 50%;
     display: table;
@@ -84,7 +84,8 @@ html, body {
 
 .nmaior {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .nmenor {
@@ -93,14 +94,15 @@ html, body {
 
 #resultado > h2 {
     color: white;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 
 #resultado > p {
     color: var(--Light-lavender);
-    font-size: 16px;
-    padding: 10px 30px;
+    font-size: 18px;
+    padding: 10px 45px;
 }
 
 
@@ -122,19 +124,24 @@ html, body {
 
 
 h1 {
-    font-size: 18px;
-    margin: 15px 0px 26px 0px;
+    font-size: 24px;
+    margin: 30px 0px 26px 0px;
 }
 
 #sumario > h1 {
     color: rgba(0, 0, 0, 0.80);
+    margin-left: 0px;
+}
+
+#sumario > div {
+    margin-bottom: 20px;
 }
 
 
 #sumario > div > .li {
     list-style: none;
     margin: 13px 10px;
-    height: 40px;
+    height: 53px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -189,14 +196,16 @@ h1 {
 
 
 button {
-    height: 41px;
+    height: 57px;
+    width: 350px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: var(--fonteprincipal);
-    font-size: 15px;
+    font-size: 18px;
     background-color: var(--Dark-gray-blue);
     color: white;
-    margin-top: 23px;
+    margin-top: 20px;
+    margin-left: 0;
 }
 
 button > a {

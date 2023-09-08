@@ -26,10 +26,10 @@ body {
 div.conteiner-principal {
     background-color: var(--cor1);
     height: 500px;
-    max-width: 300px;
+    max-width: 315px;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+    box-shadow: 1px 1px 10px rgba(124, 123, 123, 0.384);
 }
 
 div.texto {
@@ -70,5 +70,7 @@ h1 {
 p {
     font-weight: 400;
     font-size: 15px;
-    color: var(--cor3)
+    color: var(--cor3);
+    padding: 0px 10px 0px 10px;
+    
 }
