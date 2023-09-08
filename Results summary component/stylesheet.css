@@ -10,9 +10,9 @@
     --Cobalt-blue-primary: hsl(234, 85%, 45%);
 
     /*Cores gradientes*/
-    --Light-slate-blue-background: hsla(248, 55%, 53%, 0.925);
+    --Light-slate-blue-background: hsla(248, 78%, 55%, 0.925);
     --Light-royal-blue-background: hsl(241, 81%, 54%);
-    --Violet-blue-circle: rgb(67, 24, 184);
+    --Violet-blue-circle: rgb(67, 21, 194);
     --Persian-blue-circle: hsla(241, 72%, 46%, 0);
 
     /*Cores neutras*/
@@ -67,8 +67,8 @@ html, body {
 }
 
 #score {
-    height: 180px;
-    width: 180px;
+    height: 185px;
+    width: 185px;
     background-image: linear-gradient(to top, var(--Persian-blue-circle), var(--Violet-blue-circle));
     border-radius: 50%;
     display: table;
@@ -113,7 +113,7 @@ html, body {
     height: 100%;
     width: 50%;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 35px;
     text-align: justify;
 }
 
@@ -197,7 +197,7 @@ h1 {
 
 button {
     height: 57px;
-    width: 350px;
+    width: 305px;
     border: none;
     border-radius: 30px;
     font-family: var(--fonteprincipal);
