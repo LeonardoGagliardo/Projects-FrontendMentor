@@ -208,10 +208,6 @@ button {
     margin-left: 0;
 }
 
-button > a {
-    text-decoration: none;
-    color: white;
-}
 
 button:hover {
     cursor: pointer;
