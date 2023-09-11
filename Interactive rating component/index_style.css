@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+
+    /*Cor Primaria*/
+    --Primary-Orange: hsl(25, 97%, 53%);
+
+    /*Cores Neutras*/
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Mediun-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+
+}
+
+
+/* ### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700 
+
+
+###The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Very-Dark-Blue);
+}
+
+
+#conteiner_principal {
+    background: radial-gradient(circle at top, 
+        hsl(218, 20%, 25%),
+        hsla(217, 20%, 23%), 
+        hsla(213, 20%, 20%), 
+        hsla(213, 20%, 18%) 30%);
+    color: white;
+    font-family: Overpass ,Arial, Helvetica, sans-serif ;
+    height: 405px ;
+    max-width: 370px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.315);
+}
+
+img {
+    padding: 14px;
+    margin-bottom: 15px;
+    background: hsl(218, 20%, 22%);
+    border-radius: 50px;
+ 
+}
+
+h1 {
+    font-size: 28px;
+    padding-left: 6px;
+}
+
+p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.63);
+    margin: 25px 0px;
+    padding: 0px 14px 0px 6px;
+}
+
+
+#botoes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    all: unset;
+    color: rgba(255, 255, 255, 0.486);
+    padding: 20px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    width: 8px;
+    height: 8px;
+    background: hsl(218, 16%, 20%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459) 
+}
+
+button.hbt:hover {
+    cursor: pointer;
+    background-color: var(--Mediun-Grey);
+    color: white;
+}
+
+
+#submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    all: unset;
+    display: flex;
+    background-color: var(--Primary-Orange);
+    width: 90%;
+    height: 45px;
+    border-radius: 35px;
+    justify-content: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.123);
+    color: rgba(238, 238, 238, 0.973);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.466) ;
+    font-weight: 400;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--Primary-Orange);
+} 
+
+
+
+.selecionado {
+    background-color: var(--Primary-Orange);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Work in progress...
+@media screen and (min-width: 375px) {
+
+}

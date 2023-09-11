@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="ThankYou_Style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+
+
+</head>
+
+
+
+
+<body>
+
+    <div id="conteiner_principal">
+
+        <img src="images/illustration-thank-you.svg">
+
+        <div id="alinhar-meio">
+            <h2 id="You_select_text">Texto não selecionado</h2>
+        </div>
+        
+        <h1>Thank you!</h1>
+
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch</p>
+
+
+
+        <script> 
+
+        document.querySelector("#You_select_text").innerText = `You selected ${localStorage.getItem('notaDada')} out of 5`;
+        
+        </script>
+
+
+
+
+        
+
+</body>
+
+
+
+
+</html>

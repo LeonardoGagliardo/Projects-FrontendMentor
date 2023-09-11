@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+
+
+</head>
+
+
+
+
+<body>
+
+    <div id="conteiner_principal">
+
+        <img src="images/icon-star.svg">
+
+        <h1>How did we do?</h1>
+
+        <p>Please let us know how we did with your suppor request. All feedback is appreciated to help us improve our offering!</p>
+
+
+
+        <div id="botoes">
+            
+            <button class="js-nota hbt" value="1" onclick="change_nota(1); valor_nota(1)">1</button>
+            <button class="js-nota hbt" value="2" onclick="change_nota(2); valor_nota(2)">2</button>
+            <button class="js-nota hbt" value="3"onclick="change_nota(3); valor_nota(3)">3</button>
+            <button class="js-nota hbt" value="4"onclick="change_nota(4); valor_nota(4)">4</button>
+            <button class="js-nota hbt" value="5"onclick="change_nota(5); valor_nota(5)">5</button>
+        </div>
+
+
+        <div id="submit">
+            <input type="submit" value="SUBMIT" onclick="rediPagThx()">
+        </div>
+
+        <p id="teste"></p>
+
+
+    </div>
+
+
+
+    <script src="script.js">
+
+
+    </script>
+
+
+
+
+</body>
+
+
+
+
+</html>
