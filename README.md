@@ -9,4 +9,5 @@ Links:
 1)QR-Code:  https://leonardogagliardo.github.io/Challanges/QR-code-component/  
 <br>
 2)Results summary: https://leonardogagliardo.github.io/Challanges/Results%20summary%20component/
-
+<br>
+3)Interactive rating component: https://leonardogagliardo.github.io/Challanges/Interactive%20rating%20component/
