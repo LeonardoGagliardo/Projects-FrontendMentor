@@ -3,7 +3,7 @@
 Frontend Mentor: https://www.frontendmentor.io/profile/LeonardoGagliardo
 
 
-Or directly on my projects links:
+Or directly on my project links:
 
 1)QR-Code:  https://leonardogagliardo.github.io/Challanges/QR-code-component/  
 
